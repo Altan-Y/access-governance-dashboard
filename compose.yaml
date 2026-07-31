@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - accesshub-data:/var/www/html/data
+volumes:
+  accesshub-data:
