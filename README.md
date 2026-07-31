@@ -20,6 +20,22 @@ AccessHub makes access responsibilities easier to understand. Users can browse f
 
 The public repository is an **independently rewritten demonstration**. It preserves the product idea and interaction flow of an internal prototype while excluding employer source code, production integrations, branding and company data.
 
+## Product gallery
+
+<p align="center">
+  <img src="screenshots/accesshub-gallery.webp" alt="AccessHub product gallery showing the login, dashboard and job-role management views" width="100%">
+</p>
+
+<table>
+<tr>
+<td width="33%" valign="top"><strong>Demo login</strong><br><br><img src="screenshots/accesshub-login.webp" alt="AccessHub demo login"></td>
+<td width="33%" valign="top"><strong>Dashboard</strong><br><br><img src="screenshots/accesshub-dashboard.webp" alt="AccessHub dashboard with job roles and groups"></td>
+<td width="33%" valign="top"><strong>Job-role management</strong><br><br><img src="screenshots/accesshub-job-roles.webp" alt="AccessHub job-role list with permission-aware editing"></td>
+</tr>
+</table>
+
+The screenshots are generated from the public application in a clean browser environment and contain fictional demo accounts and records only.
+
 ## Features
 
 - searchable group and job-role directory;
@@ -99,7 +115,7 @@ All demo accounts use the password `demo123`.
 php tests/smoke.php
 ```
 
-The GitHub Actions workflow also validates PHP syntax and runs the smoke tests on pushes and pull requests.
+The GitHub Actions workflows validate PHP syntax, run the smoke tests and regenerate the portfolio screenshots when their capture setup changes.
 
 ## Privacy and ownership
 
