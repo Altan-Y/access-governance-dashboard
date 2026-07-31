@@ -1,0 +1,5 @@
+.git
+.github
+screenshots
+*.zip
+.DS_Store
