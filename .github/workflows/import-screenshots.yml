@@ -6,6 +6,8 @@ on:
       - ".bootstrap/payload.b64"
       - ".github/workflows/import-screenshots.yml"
   workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
